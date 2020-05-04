@@ -79,15 +79,15 @@
 
 
 
-<meta name="description" content="Setup rcloneinstallation1curl https:&#x2F;&#x2F;rclone.org&#x2F;install.sh | sudo bash Configure1234567891011rclone config&#96;&#96;&#96; https:&#x2F;&#x2F;rclone.org&#x2F;drive&#x2F;#making-your-own-client-id### Basic usage&#96;&#96;&#96;bash$ rclone ls gdri">
+<meta name="description" content="Setup rcloneinstallation1curl https:&#x2F;&#x2F;rclone.org&#x2F;install.sh | sudo bash Configure1rclone config  https:&#x2F;&#x2F;rclone.org&#x2F;drive&#x2F;#making-your-own-client-id Basic usage123$ rclone ls gdrive-backup:&#x2F;$ rclone c">
 <meta property="og:type" content="article">
 <meta property="og:title" content="setup-rclone-for-gdrive">
 <meta property="og:url" content="http://chibaheit.github.io/2020/05/04/setup-rclone-for-gdrive/index.html">
 <meta property="og:site_name" content="Habel&#39;s note">
-<meta property="og:description" content="Setup rcloneinstallation1curl https:&#x2F;&#x2F;rclone.org&#x2F;install.sh | sudo bash Configure1234567891011rclone config&#96;&#96;&#96; https:&#x2F;&#x2F;rclone.org&#x2F;drive&#x2F;#making-your-own-client-id### Basic usage&#96;&#96;&#96;bash$ rclone ls gdri">
+<meta property="og:description" content="Setup rcloneinstallation1curl https:&#x2F;&#x2F;rclone.org&#x2F;install.sh | sudo bash Configure1rclone config  https:&#x2F;&#x2F;rclone.org&#x2F;drive&#x2F;#making-your-own-client-id Basic usage123$ rclone ls gdrive-backup:&#x2F;$ rclone c">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2020-05-04T01:15:16.000Z">
-<meta property="article:modified_time" content="2020-05-04T10:51:11.098Z">
+<meta property="article:modified_time" content="2020-05-04T11:03:35.433Z">
 <meta property="article:author" content="Habel Huang">
 <meta name="twitter:card" content="summary">
 
@@ -300,7 +300,10 @@
 
       
         <h2 id="Setup-rclone"><a href="#Setup-rclone" class="headerlink" title="Setup rclone"></a>Setup rclone</h2><h3 id="installation"><a href="#installation" class="headerlink" title="installation"></a>installation</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl https://rclone.org/install.sh | sudo bash</span><br></pre></td></tr></table></figure>
-<h3 id="Configure"><a href="#Configure" class="headerlink" title="Configure"></a>Configure</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">rclone config</span><br><span class="line">``` </span><br><span class="line"></span><br><span class="line">https://rclone.org/drive/<span class="comment">#making-your-own-client-id</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">### Basic usage</span></span><br><span class="line">```bash</span><br><span class="line">$ rclone ls gdrive-backup:/</span><br><span class="line">$ rclone copy /path/to/dir/ gdrive-backup:/dir/</span><br><span class="line">$ rclone copy gdrive-backup:/dir/ /path/to/dir/</span><br></pre></td></tr></table></figure>
+<h3 id="Configure"><a href="#Configure" class="headerlink" title="Configure"></a>Configure</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rclone config</span><br></pre></td></tr></table></figure>
+
+<p><a href="https://rclone.org/drive/#making-your-own-client-id" target="_blank" rel="noopener">https://rclone.org/drive/#making-your-own-client-id</a></p>
+<h3 id="Basic-usage"><a href="#Basic-usage" class="headerlink" title="Basic usage"></a>Basic usage</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ rclone ls gdrive-backup:/</span><br><span class="line">$ rclone copy /path/to/dir/ gdrive-backup:/dir/</span><br><span class="line">$ rclone copy gdrive-backup:/dir/ /path/to/dir/</span><br></pre></td></tr></table></figure>
       
     </div>
     
@@ -430,7 +433,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Setup-rclone"><span class="nav-number">1.</span> <span class="nav-text">Setup rclone</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#installation"><span class="nav-number">1.1.</span> <span class="nav-text">installation</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Configure"><span class="nav-number">1.2.</span> <span class="nav-text">Configure</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Setup-rclone"><span class="nav-number">1.</span> <span class="nav-text">Setup rclone</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#installation"><span class="nav-number">1.1.</span> <span class="nav-text">installation</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Configure"><span class="nav-number">1.2.</span> <span class="nav-text">Configure</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Basic-usage"><span class="nav-number">1.3.</span> <span class="nav-text">Basic usage</span></a></li></ol></li></ol></div>
             
 
           </div>
