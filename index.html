@@ -302,7 +302,8 @@
       
         
           
-            
+            <h2 id="Setup-rclone"><a href="#Setup-rclone" class="headerlink" title="Setup rclone"></a>Setup rclone</h2><h3 id="installation"><a href="#installation" class="headerlink" title="installation"></a>installation</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl https://rclone.org/install.sh | sudo bash</span><br></pre></td></tr></table></figure>
+<h3 id="Configure"><a href="#Configure" class="headerlink" title="Configure"></a>Configure</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">rclone config</span><br><span class="line">``` </span><br><span class="line">https://rclone.org/drive/<span class="comment">#making-your-own-client-id</span></span><br><span class="line"></span><br><span class="line"><span class="comment">### Basic usage</span></span><br><span class="line">```bash</span><br><span class="line">$ rclone ls gdrive-backup:/</span><br><span class="line">$ rclone copy /path/to/dir/ gdrive-backup:/dir/</span><br><span class="line">$ rclone copy gdrive-backup:/dir/ /path/to/dir/</span><br></pre></td></tr></table></figure>
           
         
       
